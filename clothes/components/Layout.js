@@ -20,7 +20,7 @@ export default function Layout({children}) {
             </Container>
             <footer className={style.footer}>
                 <Typography>
-                    Created @January 2023
+                    Created @February 2023
                 </Typography>
             </footer>
         </div>
