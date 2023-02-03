@@ -6,13 +6,14 @@ import { AppBar, Toolbar, Typography, Container, Grid, Button, } from "@mui/mate
 import { useRouter } from "next/router";
 import useStyles from "../utils/styles"
 
-export default function Layout({ children }) {
+export default function Layout({ title, description, children }) {
     const style = useStyles()
     const router = useRouter()
     return (
         <div>
             <Head>
-                <title> La Victoire</title>
+                <title> {title? `${title} | La Victoire` : "La Victoire"}</title>
+            {description && <meta name="description" content={description}></meta>}
             </Head>
             <AppBar position="static" className={style.navbar}>
                 <Toolbar>

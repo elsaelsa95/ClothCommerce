@@ -3,7 +3,7 @@ const data = {
     {
       id: 1,
       name: "Kulot Pants",
-      slug: "kulor-pants",
+      slug: "kulot-pants",
       category: "Pants",
       image:
         "https://dynamic.zacdn.com/GbOMIs-2jxvUWeiMq2CL2SFRXiE=/fit-in/346x500/filters:quality(90):fill(ffffff)/https://static-id.zacdn.com/p/duapola-1992-3447723-1.jpg",

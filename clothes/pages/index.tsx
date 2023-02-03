@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title={"Home"} description>
       <div>
         <h1>Products</h1>
         <Grid container spacing={3}>
